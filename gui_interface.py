@@ -1,6 +1,13 @@
 import tkinter as tk
 from voting_system import VoteManager
 
+"""
+Graphical User Interface for the Voting System.
+
+This class extends `tk.Frame` and is responsible for setting up the GUI,
+handling user interactions, and displaying results of the voting process.
+"""
+
 class GUIInterface(tk.Frame):
     def __init__(self, manager, master=None):
         super().__init__(master, bg='white')

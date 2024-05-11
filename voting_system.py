@@ -1,6 +1,13 @@
 import csv
 from collections import defaultdict
 
+"""
+Voting system and management classes.
+
+This module contains the `Candidate` and `VoteManager` classes which handle
+the voting logic, including managing candidates, votes, and voting records.
+"""
+
 class Candidate:
     def __init__(self, name: str):
         self._name = name
